@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaxiAdmin</string>
+    <string name="log_in">Авторизация</string>
+    <string name="returned">Назад</string>
+    <string name="auth">Авторизация</string>
+    <string name="reg">Рег</string>
+</resources>
