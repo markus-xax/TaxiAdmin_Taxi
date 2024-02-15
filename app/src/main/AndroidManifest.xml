@@ -37,7 +37,7 @@
         </activity>
 
         <activity
-            android:name=".Commision"
+            android:name=".Settings"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />

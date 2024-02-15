@@ -19,6 +19,18 @@ public class AdminDataPojo {
     @SerializedName("login")
     @Expose
     private String login;
+    @SerializedName("delivery")
+    @Expose
+    private String delivery;
+    @SerializedName("day")
+    @Expose
+    private String day;
+    @SerializedName("weather")
+    @Expose
+    private String weather;
+    @SerializedName("wait")
+    @Expose
+    private String wait;
 
     public String getId() {
         return id;
@@ -58,5 +70,37 @@ public class AdminDataPojo {
 
     public void setLogin(String login) {
         this.login = login;
+    }
+
+    public String getDelivery() {
+        return delivery;
+    }
+
+    public void setDelivery(String delivery) {
+        this.delivery = delivery;
+    }
+
+    public String getDay() {
+        return day;
+    }
+
+    public void setDay(String day) {
+        this.day = day;
+    }
+
+    public String getWeather() {
+        return weather;
+    }
+
+    public void setWeather(String weather) {
+        this.weather = weather;
+    }
+
+    public String getWait() {
+        return wait;
+    }
+
+    public void setWait(String wait) {
+        this.wait = wait;
     }
 }
